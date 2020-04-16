@@ -10,7 +10,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 */
 body {
-    background-color: #ff;
+    background-color: #ffffff;
 }
 
 #wrapper {
@@ -253,19 +253,19 @@ table.dataTable thead .sorting_desc_disabled {
 table.dataTable thead .sorting_asc:after {
     content: "\f0de";
     float: right;
-    font-family: fontawesome;
+  font-family: fontawesome, sans-serif;
 }
 
 table.dataTable thead .sorting_desc:after {
     content: "\f0dd";
     float: right;
-    font-family: fontawesome;
+    font-family: fontawesome, sans-serif;
 }
 
 table.dataTable thead .sorting:after {
     content: "\f0dc";
     float: right;
-    font-family: fontawesome;
+    font-family: fontawesome, sans-serif;
     color: rgba(50,50,50,.5);
 }
 
@@ -391,7 +391,6 @@ table.dataTable thead .sorting:after {
     font-weight: normal;
     font-size: 14px;
     color: #777;
-    margin: 0px;
-    margin-top: 2px;
-    padding: 0px;
+  margin: 2px 0 0;
+  padding: 0;
 }
